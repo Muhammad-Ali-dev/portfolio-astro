@@ -10,7 +10,7 @@ export function personJsonLd() {
     "@type": "Person",
     "@id": absoluteUrl("/#person"),
     name: siteConfig.name,
-    alternateName: ["Muhammad Usama Bin Akhtar Khan", "Muhammad Usama Khan"],
+    alternateName: ["Muhammad Ali"],
     url: siteConfig.url,
     image: absoluteUrl(siteConfig.ogImage),
     jobTitle: ["Applied AI Engineer", "Senior Software Engineer"],
@@ -22,7 +22,7 @@ export function personJsonLd() {
     ],
     alumniOf: {
       "@type": "CollegeOrUniversity",
-      name: "COMSATS University Islamabad, Wah Campus",
+      name: "COMSATS University Islamabad",
     },
     homeLocation: {
       "@type": "Place",

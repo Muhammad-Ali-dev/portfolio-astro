@@ -16,13 +16,7 @@ highlights:
   - "Designed a headless tree API that separates state from presentation."
   - "Implemented virtualization for large tree structures without losing keyboard support."
   - "Shipped npm packaging, docs, tests, and a public playground."
-links:
-  - label: "GitHub"
-    href: "https://github.com/usamakhangt4/shadcn-virtualized-tree"
-  - label: "npm"
-    href: "https://www.npmjs.com/package/shadcn-virtualized-tree"
-  - label: "Live demo"
-    href: "https://usamakhangt4.github.io/shadcn-virtualized-tree/"
+links: []
 seo:
   title: "shadcn Virtualized Tree Case Study"
   description: "Case study for a React and TypeScript virtualized tree component with shadcn/ui, drag-and-drop, tri-state checkboxes, and ARIA support."

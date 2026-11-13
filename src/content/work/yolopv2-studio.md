@@ -17,9 +17,7 @@ highlights:
   - "Web interface for YOLOPv2 object detection, lane detection, and drivable-area segmentation."
   - "Image upload, a bundled demo image, webcam processing, confidence and IoU thresholds, and an FPS counter."
   - "Windows, macOS, and Linux setup, with automatic CPU, CUDA, or Apple MPS device selection."
-links:
-  - label: "GitHub"
-    href: "https://github.com/usamakhangt4/YOLOPv2-Studio"
+links: []
 seo:
   title: "YOLOPv2-Studio Case Study"
   description: "Case study for a Python and Flask studio interface for YOLOPv2 computer vision workflows with upload and webcam processing."

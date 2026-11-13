@@ -17,11 +17,7 @@ highlights:
   - "Built table-based surah browsing with expandable verse reading."
   - "Rendered Quran content from local JSON data."
   - "Kept the interface simple and direct rather than presenting it as a complex product."
-links:
-  - label: "GitHub"
-    href: "https://github.com/usamakhangt4/verse-insight"
-  - label: "Live app"
-    href: "https://verse-insight.vercel.app/"
+links: []
 seo:
   title: "Verse Insight Case Study"
   description: "Supporting project for a simple Next.js Quran reading interface with local JSON data and expandable verse rows."

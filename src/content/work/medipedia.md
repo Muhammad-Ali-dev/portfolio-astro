@@ -17,11 +17,7 @@ highlights:
   - "Built a focused drug information search workflow with loading, empty, and error states."
   - "Organized medicine details into readable sections for safety, dosage, and warnings."
   - "Shipped a deployed Next.js interface with responsive UI components."
-links:
-  - label: "GitHub"
-    href: "https://github.com/usamakhangt4/medipedia"
-  - label: "Live app"
-    href: "https://medipedia-ten.vercel.app"
+links: []
 seo:
   title: "Medipedia Case Study"
   description: "Case study for a Next.js and TypeScript medicine information search UI with readable drug safety, dosage, and warning details."

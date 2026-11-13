@@ -18,9 +18,7 @@ highlights:
   - "Frontend delivery for the React and Next.js product, built at FOCUS, Jul 2024 – Present."
   - "A 32-image, frame-based Canvas rotation viewer powered by the public viewer-360 library."
   - "A separate 3D/AR configurator: product models and materials, textures stripped on save, materials applied at runtime, with AR viewing."
-links:
-  - label: "viewer-360 library"
-    href: "https://github.com/usamakhangt4/viewer-360"
+links: []
 seo:
   title: "Giolindo Case Study"
   description: "Case study for Giolindo: a 32-image Canvas rotation viewer using viewer-360, and a separate 3D/AR product configurator."

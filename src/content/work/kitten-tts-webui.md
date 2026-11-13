@@ -17,11 +17,7 @@ highlights:
   - "Local Windows UI for the 1.7B KittenTTS 2 model, with an NVIDIA GPU path and a CPU fallback."
   - "47 built-in voices, ready-made sample texts, and a history of generated WAV clips."
   - "Published samples were generated on an RTX 3060. The project documents about 4.7 GB of VRAM while the model is loaded."
-links:
-  - label: "GitHub"
-    href: "https://github.com/usamakhangt4/kitten-tts-webui"
-  - label: "Samples"
-    href: "https://usamakhangt4.github.io/kitten-tts-webui/"
+links: []
 seo:
   title: "KittenTTS WebUI Case Study"
   description: "Case study for a local Windows web UI that runs KittenTTS 2 text-to-speech with FastAPI and PyTorch."

@@ -17,9 +17,7 @@ highlights:
   - "Built a working command-line tool around a real developer workflow."
   - "Reads staged diffs, filters noisy artifacts, and generates commit messages through a local Ollama model."
   - "Ships with tests, install scripts for macOS, Linux, and Windows, and GitHub releases."
-links:
-  - label: "GitHub"
-    href: "https://github.com/usamakhangt4/git-auto-commit"
+links: []
 seo:
   title: "git-auto-commit Case Study"
   description: "Case study for a Rust CLI that generates Git commit messages from staged changes using a local Ollama model."

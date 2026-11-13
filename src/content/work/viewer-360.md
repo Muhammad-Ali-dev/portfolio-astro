@@ -16,13 +16,7 @@ highlights:
   - "TypeScript Canvas Web Component with Shadow DOM isolation and React, Vue, and Angular wrappers."
   - "Drag rotation, pinch and scroll zoom, and high-resolution image swapping when zoomed."
   - "Progressive loading that prefers key and nearby frames, then continues in idle time and backs off on slow or save-data connections. Frame count is set by the image list."
-links:
-  - label: "GitHub"
-    href: "https://github.com/usamakhangt4/viewer-360"
-  - label: "npm"
-    href: "https://www.npmjs.com/package/@usamakhangt4/viewer-360"
-  - label: "Live demo"
-    href: "https://usamakhangt4.github.io/viewer-360/demo/"
+links: []
 seo:
   title: "viewer-360 Case Study"
   description: "Case study for viewer-360, a TypeScript Canvas Web Component for frame-based product rotation with zoom, high-resolution swaps, and framework wrappers."

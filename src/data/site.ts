@@ -1,23 +1,23 @@
 import { resolveSiteUrl } from "../lib/site-url";
 
 export const siteConfig = {
-  name: "Usama Khan",
-  legalName: "Muhammad Usama Bin Akhtar Khan",
+  name: "Muhammad Ali",
+  legalName: "Muhammad Ali",
   role: "Applied AI Engineer",
-  title: "Usama Khan (Muhammad Usama Bin Akhtar Khan) — Applied AI Engineer",
+  title: "Muhammad Ali — Applied AI Engineer",
   description:
-    "Applied AI engineer: computer vision, local LLMs and TTS, backed by 7+ years of React, Next.js and TypeScript product work. Case studies, npm libraries and resume.",
-  lede: "I build computer-vision and local LLM systems, and the React and Next.js product interfaces they ship in. 7+ years of production TypeScript.",
+    "Applied AI engineer: computer vision, local LLMs and TTS, backed by 4+ years of React, Next.js and TypeScript product work. Case studies, npm libraries and resume.",
+  lede: "I build computer-vision and local LLM systems, and the React and Next.js product interfaces they ship in. 4+ years of production TypeScript.",
   url: resolveSiteUrl(),
-  email: "usamakhangt4@gmail.com",
+  email: "muhammad9000ali@gmail.com",
   location: "Islamabad, Pakistan",
   availability: "Open to applied AI and full-stack roles, remote or relocation",
-  resume: "/muhammad-usama-khan-resume.pdf",
+  resume: "/muhammad-ali-sheikh-resume.pdf",
   // Same-origin Open Graph image (1200×630). Override via absolute URL if needed.
   ogImage: "/og.png",
   social: {
-    github: "https://github.com/usamakhangt4",
-    linkedin: "https://www.linkedin.com/in/usamakhangt4/",
+    github: "",
+    linkedin: "https://www.linkedin.com/in/muhammad-ali-sheikh001/",
     npm: "https://www.npmjs.com/~usamakhangt4",
   },
 };
@@ -30,7 +30,7 @@ export const navItems = [
 ];
 
 export const careerHighlights = [
-  { value: "7+", label: "Years shipping production software" },
+  { value: "4+", label: "Years shipping production software" },
   { value: "4", label: "Client products delivered since 2024" },
   { value: "2", label: "Published npm component libraries" },
   { value: "AI", label: "Computer vision and local GPU inference" },
@@ -38,57 +38,42 @@ export const careerHighlights = [
 
 export const experience = [
   {
-    company: "FOCUS",
-    role: "Senior Software Engineer",
-    location: "Remote, Pakistan",
-    period: "Jul 2024 – Present",
+    company: "Focus IT Services Pvt Ltd",
+    role: "Software Developer",
+    location: "Rawalpindi, Pakistan",
+    period: "Mar 2024 – Oct 2026",
     summary:
-      "Lead frontend delivery for client products, owning component architecture, code review, and quality tooling and mentoring engineers, with full-stack and applied AI work where the product needed it.",
+      "Led end-to-end delivery of three production enterprise platforms for business clients (logistics dispatch, HRMS, content management), owning requirements, solution design, build and release.",
     highlights: [
-      "Giolindo: a 32-image Canvas rotation viewer built on my open-source viewer-360, and a separate 3D/AR configurator with runtime material switching.",
-      "Lumenweave: a React/Vite and Three.js retailer embed backed by a FastAPI photo API and a separate GPU service for segmentation, depth, and inpainting.",
-      "Global Foods: three Vue and Vite apps (customer, EPOS, operations) on Laravel and MariaDB, plus Ionic Android and iOS builds.",
-      "Herd WMS: a real-time warehouse management system on NestJS, PostgreSQL, Prisma, Redis, and WebSockets.",
+      "Built an AI campaign recommendation platform: a RAG chatbot (LangChain, OpenAI APIs) grounding recommendations in location, pricing and past-campaign data, with a dynamic pricing engine and role-based dashboards.",
+      "Diagnosed a real-time rendering bottleneck on K-Optra (thousands of live fleet markers) and redesigned it around a single Canvas layer, cutting scheduling processing time by 40%.",
+      "Built live driver tracking and job-status updates over WebSockets, plus a route-planning interface with Gantt view, Leaflet.js maps and order tracking.",
+      "Designed a reusable component library shared across K-Optra, Focus HRMS and Giolindo CMS, standardising component APIs and reducing duplicated effort across teams.",
+      "Defined the E2E test strategy (Cypress) and built CI/CD pipelines in GitHub Actions, adopted as the team's release standard.",
+      "Ran demos and proofs of concept for clients and internal teams to validate solutions against requirements before launch.",
     ],
   },
   {
-    company: "Next Order",
+    company: "SmartWeb Labs Tech",
+    role: "Web Developer",
+    location: "Greater London, UK (Remote)",
+    period: "Jun 2023 – Feb 2024",
+    summary:
+      "Delivered responsive enterprise-grade interfaces for multiple UK clients in a remote team, using React.",
+    highlights: [
+      "Worked with backend teams on REST API design and integration, with optimised data fetching and re-render strategies.",
+      "Optimised applications for performance and cross-browser compatibility.",
+    ],
+  },
+  {
+    company: "Advance - Coding Experts",
     role: "Frontend Developer",
-    location: "Remote, Australia",
-    period: "Jul 2023 – Jul 2024",
+    location: "Leiria, Portugal (Remote)",
+    period: "May 2022 – Apr 2023",
     summary:
-      "Built the Next Order Control Panel for restaurant and store operations, with a focus on data-heavy administration workflows.",
+      "Built and maintained client websites to agreed timelines, focused on performance and responsive design, working remotely with a Portugal-based team.",
     highlights: [
-      "Delivered dashboards, tables, forms, filters, modals, reports, and analytics views from Figma designs.",
-      "Built reusable React and TypeScript components with Tailwind CSS.",
-      "Integrated REST APIs through Axios, SWR, and React Query patterns.",
-    ],
-  },
-  {
-    company: "Emumba",
-    role: "Frontend Developer · Markup Engineer",
-    location: "Islamabad, Pakistan",
-    period: "Sep 2020 – Jul 2023",
-    summary:
-      "Joined as Markup Engineer (Sep 2020 – Jan 2023) and moved to Frontend Developer (Jan – Jul 2023), shipping fintech, fleet-tracking, analytics, and tax products.",
-    highlights: [
-      "Developed complex forms, data tables, charts, and interactive dashboards.",
-      "Worked with React, Next.js, TypeScript, Redux, Formik, React Query, Material UI, and Ant Design.",
-      "Collaborated closely with designers on responsive, production-ready Figma implementation.",
-    ],
-  },
-  {
-    company: "TheTekSol",
-    role: "Software Engineer",
-    location: "Pakistan",
-    period: "Sep 2018 – Sep 2020",
-    summary:
-      "Built a production review-management system for final-year projects and graduate thesis evaluations, plus a point-of-sale system.",
-    highlights: [
-      "Built evaluation workflows, forms, review screens, and administrative interfaces.",
-      "Delivered the system for COMSATS University Islamabad, Wah Campus.",
-      "Worked across Laravel views, JavaScript, jQuery, Bootstrap, HTML, and CSS.",
-      "Developed a point-of-sale system in React.js and its admin panel in Next.js.",
+      "Developed reusable components in HTML, CSS, JavaScript and React, shortening delivery timelines.",
     ],
   },
 ] as const;
@@ -125,9 +110,9 @@ export const earlierProfessionalProjects = [
 ] as const;
 
 export const education = {
-  degree: "BS in Software Engineering",
-  school: "COMSATS University Islamabad - Wah Campus",
-  period: "2016 - 2020",
+  degree: "BS in Software Engineering (AI)",
+  school: "COMSATS University Islamabad (2024)",
+  period: "2020 - 2024",
 } as const;
 
 /** Skill groups shown on the homepage. Every item is backed by shipped work. */
@@ -158,8 +143,6 @@ export const stackGroups = [
     items: [
       "FastAPI",
       "Flask",
-      "Laravel",
-      "MariaDB",
       "NestJS",
       "PostgreSQL",
       "Redis",

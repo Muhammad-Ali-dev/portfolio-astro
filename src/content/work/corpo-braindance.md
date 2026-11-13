@@ -18,9 +18,7 @@ highlights:
   - "Static Next.js export with Zustand state and localStorage persistence. No backend, no accounts, and nothing leaves the device."
   - "Accessibility built in: skip link, keyboard-operable controls, aria-live announcements, prefers-reduced-motion and forced-colors support."
   - "Vitest and smoke tests cover the core generate, copy, and save flows."
-links:
-  - label: "Live demo"
-    href: "https://corpo-braindance.vercel.app/"
+links: []
 seo:
   title: "Corpo Braindance Case Study"
   description: "Case study for Corpo Braindance, a local-first Next.js 16 and React 19 interface with Zustand, localStorage persistence, and built-in accessibility."
